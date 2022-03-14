@@ -273,3 +273,12 @@ TermSocket.open: Opened 1
 [I 11:02:00.297 NotebookApp] Saving file at /Untitled.ipynb
 [I 11:02:52.231 NotebookApp] 302 GET /user/eldadkeha-class21-u5k40k9s/ (10.244.0.214) 0.820000ms
 [I 11:08:31.809 NotebookApp] Saving file at /B3.ipynb
+[W 11:08:59.116 NotebookApp] Culling 'idle' kernel 'python3' (d2bc6923-0ce6-46b3-b965-49813b2b8045) with 1 connections due to 655 seconds of inactivity.
+[I 11:08:59.118 NotebookApp] Kernel shutdown: d2bc6923-0ce6-46b3-b965-49813b2b8045
+[I 11:09:44.238 NotebookApp] Creating new notebook in 
+[I 11:09:51.180 NotebookApp] Kernel started: e39ef500-e0ca-4adb-9812-f74fa7e791ea, name: python3
+[I 11:11:51.018 NotebookApp] Saving file at /B4.ipynb
+[W 11:18:59.119 NotebookApp] Culling 'idle' kernel 'python3' (724baa0e-f45e-4428-933e-66f258c7cb3d) with 1 connections due to 659 seconds of inactivity.
+[I 11:18:59.120 NotebookApp] Kernel shutdown: 724baa0e-f45e-4428-933e-66f258c7cb3d
+[W 11:19:59.117 NotebookApp] Culling 'idle' kernel 'python3' (e39ef500-e0ca-4adb-9812-f74fa7e791ea) with 1 connections due to 606 seconds of inactivity.
+[I 11:19:59.120 NotebookApp] Kernel shutdown: e39ef500-e0ca-4adb-9812-f74fa7e791ea
