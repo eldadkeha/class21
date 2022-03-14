@@ -45,3 +45,224 @@ not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
 [I 09:56:58.523 NotebookApp] Saving file at /Untitled.ipynb
 [I 09:57:05.535 NotebookApp] Saving file at /requirements.txt
+[W 10:06:36.874 NotebookApp] WebSocket ping timeout after 119812 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+[W 10:07:00.344 NotebookApp] WebSocket ping timeout after 119897 ms.
+[W 10:07:00.726 NotebookApp] WebSocket ping timeout after 119899 ms.
+[I 10:07:05.728 NotebookApp] Starting buffering for 272625f7-714a-44c5-bd26-63d10c3b91ff:96ae4098-c18f-4455-a480-52eb13e89532
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 10:09:59.116 NotebookApp] Culling 'idle' kernel 'python3' (272625f7-714a-44c5-bd26-63d10c3b91ff) with 0 connections due to 650 seconds of inactivity.
+[I 10:09:59.117 NotebookApp] Kernel shutdown: 272625f7-714a-44c5-bd26-63d10c3b91ff
+[W 10:16:26.217 NotebookApp] WebSocket ping timeout after 119895 ms.
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(41, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(41, 1)>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 189, in _handle_events
+    handler_func(fileobj, events)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/management.py", line 239, in pty_read
+    client.on_pty_read(s)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 77, in on_pty_read
+    self.send_json_message(['stdout', text])
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/terminado/websocket.py", line 87, in send_json_message
+    self.write_message(json_msg)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/terminal/handlers.py", line 70, in write_message
+    super().write_message(message, binary=binary)
+  File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/websocket.py", line 337, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Websocket closed
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[W 10:23:26.716 NotebookApp] WebSocket ping timeout after 119884 ms.
+Websocket closed
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+Websocket closed
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 10:42:16.605 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+[W 10:53:17.288 NotebookApp] WebSocket ping timeout after 119897 ms.
+Websocket closed
+[W 10:53:23.120 NotebookApp] WebSocket ping timeout after 119863 ms.
+Websocket closed
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+[I 10:54:05.208 NotebookApp] Creating new notebook in 
+[I 10:54:12.267 NotebookApp] Kernel started: d2bc6923-0ce6-46b3-b965-49813b2b8045, name: python3
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 10:56:10.598 NotebookApp] Saving file at /B2.ipynb
